@@ -1,0 +1,19 @@
+.header {
+  h1 {
+    color: red;
+  }
+
+  nav > ul {
+    list-style: none;
+    display: flex;
+    li {
+      margin-right: 15px;
+      a {
+        color: blue;
+        &.active {
+          color: lightseagreen;
+        }
+      }
+    }
+  }
+}

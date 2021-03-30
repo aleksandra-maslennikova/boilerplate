@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`People reducer people actions should handle fill action 1`] = `
+Object {
+  "data": Object {
+    "name": "Sasha",
+  },
+}
+`;
+
+exports[`People reducer people actions should return initial state by default 1`] = `
+Object {
+  "data": Object {
+    "age": "",
+    "email": "",
+    "firstName": "",
+    "sex": "",
+    "specialty": "",
+    "surname": "",
+  },
+}
+`;
+
+exports[`Student reducer should handle fill action 1`] = `
+Object {
+  "data": Object {
+    "name": "Sasha",
+  },
+}
+`;
+
+exports[`Student reducer should return initial state by default 1`] = `
+Object {
+  "data": Object {
+    "age": "",
+    "email": "",
+    "firstName": "",
+    "sex": "",
+    "specialty": "",
+    "surname": "",
+  },
+}
+`;

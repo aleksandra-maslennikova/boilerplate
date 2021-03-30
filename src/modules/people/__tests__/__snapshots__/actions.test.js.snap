@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`People actions should fetch people 1`] = `[Function]`;
+
+exports[`People actions should fill people 1`] = `
+Object {
+  "payload": Object {
+    "count": 82,
+    "results": Array [
+      Object {
+        "birth_year": "64BBY",
+        "created": "2014-12-10T16:26:56.138000Z",
+        "edited": "2014-12-20T21:17:50.330000Z",
+        "eye_color": "blue",
+        "films": Array [
+          "http://swapi.dev/api/films/1/",
+          "http://swapi.dev/api/films/6/",
+        ],
+        "gender": "male",
+        "hair_color": "auburn, grey",
+        "height": "180",
+        "homeworld": "http://swapi.dev/api/planets/21/",
+        "mass": "unknown",
+        "name": "Wilhuff Tarkin",
+        "skin_color": "fair",
+        "species": Array [],
+        "starships": Array [],
+        "url": "http://swapi.dev/api/people/12/",
+        "vehicles": Array [],
+      },
+    ],
+  },
+  "type": "FILL_PEOPLE",
+}
+`;
+
+exports[`People actions should set fetching error 1`] = `
+Object {
+  "error": true,
+  "payload": "We have an error !",
+  "type": "SET_FETCHING_PEOPLE_ERROR",
+}
+`;
+
+exports[`People actions should start fetching 1`] = `
+Object {
+  "type": "START_FETCHING_PEOPLE",
+}
+`;
+
+exports[`People actions should stop fetching 1`] = `
+Object {
+  "type": "STOP_FETCHING_PEOPLE",
+}
+`;
+
+exports[`Person actions should clear person profile 1`] = `
+Object {
+  "type": "CLEAR_PERSON_PROFILE",
+}
+`;
+
+exports[`Person actions should fetch person 1`] = `[Function]`;
+
+exports[`Person actions should fill person 1`] = `
+Object {
+  "payload": Object {
+    "birth_year": "19BBY",
+    "created": "2014-12-09T13:50:51.644000Z",
+    "edited": "2014-12-20T21:17:56.891000Z",
+    "eye_color": "blue",
+    "films": Array [
+      "http://swapi.dev/api/films/1/",
+      "http://swapi.dev/api/films/2/",
+      "http://swapi.dev/api/films/3/",
+      "http://swapi.dev/api/films/6/",
+    ],
+    "gender": "male",
+    "hair_color": "blond",
+    "height": "172",
+    "homeworld": "http://swapi.dev/api/planets/1/",
+    "mass": "77",
+    "name": "Luke Skywalker",
+    "skin_color": "fair",
+    "species": Array [],
+    "starships": Array [
+      "http://swapi.dev/api/starships/12/",
+      "http://swapi.dev/api/starships/22/",
+    ],
+    "url": "http://swapi.dev/api/people/1/",
+    "vehicles": Array [
+      "http://swapi.dev/api/vehicles/14/",
+      "http://swapi.dev/api/vehicles/30/",
+    ],
+  },
+  "type": "FILL_PERSON_PROFILE",
+}
+`;
+
+exports[`Person actions should set fetching error 1`] = `
+Object {
+  "error": true,
+  "payload": "We have an error !",
+  "type": "SET_FETCHING_PERSON_ERROR",
+}
+`;
+
+exports[`Person actions should start fetching 1`] = `
+Object {
+  "type": "START_FETCHING_PERSON",
+}
+`;
+
+exports[`Person actions should stop fetching 1`] = `
+Object {
+  "type": "STOP_FETCHING_PERSON",
+}
+`;

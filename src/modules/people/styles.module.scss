@@ -1,0 +1,17 @@
+.gridContainer {
+  height: 700px;
+  width: 100%;
+}
+
+.personContainer {
+  padding: 0 40px;
+}
+
+.progressContainer {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

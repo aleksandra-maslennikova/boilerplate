@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Films reducer film actions should handle clear action 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer film actions should handle fill action 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": Object {
+    "characters": Array [
+      "http://swapi.dev/api/people/1/",
+    ],
+    "created": "2014-12-10T14:23:31.880000Z",
+    "director": "George Lucas",
+    "edited": "2014-12-20T19:49:45.256000Z",
+    "episode_id": 4,
+    "opening_crawl": "It is a period of civil war",
+    "planets": Array [
+      "http://swapi.dev/api/planets/1/",
+    ],
+    "producer": "Gary Kurtz, Rick McCallum",
+    "release_date": "1977-05-25",
+    "species": Array [],
+    "starships": Array [],
+    "title": "A New Hope",
+    "url": "http://swapi.dev/api/films/1/",
+    "vehicles": Array [],
+  },
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer film actions should handle set fetching error message 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": "We have an error",
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer film actions should handle start fetching action 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": true,
+}
+`;
+
+exports[`Films reducer film actions should handle stop fetching action 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer film actions should return initial state by default 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer films actions should handle fill action 1`] = `
+Object {
+  "count": 6,
+  "data": Array [
+    Object {
+      "characters": Array [
+        "http://swapi.dev/api/people/1/",
+      ],
+      "created": "2014-12-10T14:23:31.880000Z",
+      "director": "George Lucas",
+      "edited": "2014-12-20T19:49:45.256000Z",
+      "episode_id": 4,
+      "id": 1,
+      "opening_crawl": "It is a period of civil war",
+      "planets": Array [
+        "http://swapi.dev/api/planets/1/",
+      ],
+      "producer": "Gary Kurtz, Rick McCallum",
+      "release_date": "1977-05-25",
+      "species": Array [],
+      "starships": Array [],
+      "title": "A New Hope",
+      "url": "http://swapi.dev/api/films/1/",
+      "vehicles": Array [],
+    },
+  ],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer films actions should handle set fetching error message 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": "We have an error",
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer films actions should handle start fetching action 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": true,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer films actions should handle stop fetching action 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;
+
+exports[`Films reducer films actions should return initial state by default 1`] = `
+Object {
+  "count": 0,
+  "data": Array [],
+  "error": null,
+  "film": null,
+  "filmError": null,
+  "isFetching": false,
+  "isFetchingFilm": false,
+}
+`;

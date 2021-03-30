@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Film actions should clear film profile 1`] = `
+Object {
+  "type": "CLEAR_FILM_PROFILE",
+}
+`;
+
+exports[`Film actions should fetch person 1`] = `[Function]`;
+
+exports[`Film actions should fill person 1`] = `
+Object {
+  "payload": Object {
+    "characters": Array [
+      "http://swapi.dev/api/people/1/",
+    ],
+    "created": "2014-12-10T14:23:31.880000Z",
+    "director": "George Lucas",
+    "edited": "2014-12-20T19:49:45.256000Z",
+    "episode_id": 4,
+    "opening_crawl": "It is a period of civil war",
+    "planets": Array [
+      "http://swapi.dev/api/planets/1/",
+    ],
+    "producer": "Gary Kurtz, Rick McCallum",
+    "release_date": "1977-05-25",
+    "species": Array [],
+    "starships": Array [],
+    "title": "A New Hope",
+    "url": "http://swapi.dev/api/films/1/",
+    "vehicles": Array [],
+  },
+  "type": "FILL_FILM_PROFILE",
+}
+`;
+
+exports[`Film actions should set fetching error 1`] = `
+Object {
+  "error": true,
+  "payload": "We have an error !",
+  "type": "SET_FETCHING_FILM_ERROR",
+}
+`;
+
+exports[`Film actions should start fetching 1`] = `
+Object {
+  "type": "START_FETCHING_FILM",
+}
+`;
+
+exports[`Film actions should stop fetching 1`] = `
+Object {
+  "type": "STOP_FETCHING_FILM",
+}
+`;
+
+exports[`Films actions should fetch films 1`] = `[Function]`;
+
+exports[`Films actions should fetch people 1`] = `[Function]`;
+
+exports[`Films actions should fill films 1`] = `
+Object {
+  "payload": Object {
+    "count": 6,
+    "results": Array [
+      Object {
+        "characters": Array [
+          "http://swapi.dev/api/people/1/",
+        ],
+        "created": "2014-12-10T14:23:31.880000Z",
+        "director": "George Lucas",
+        "edited": "2014-12-20T19:49:45.256000Z",
+        "episode_id": 4,
+        "opening_crawl": "It is a period of civil war",
+        "planets": Array [
+          "http://swapi.dev/api/planets/1/",
+        ],
+        "producer": "Gary Kurtz, Rick McCallum",
+        "release_date": "1977-05-25",
+        "species": Array [],
+        "starships": Array [],
+        "title": "A New Hope",
+        "url": "http://swapi.dev/api/films/1/",
+        "vehicles": Array [],
+      },
+    ],
+  },
+  "type": "FILL_FILMS",
+}
+`;
+
+exports[`Films actions should fill people 1`] = `
+Object {
+  "payload": Object {
+    "count": 82,
+    "results": Array [
+      Object {
+        "birth_year": "64BBY",
+        "created": "2014-12-10T16:26:56.138000Z",
+        "edited": "2014-12-20T21:17:50.330000Z",
+        "eye_color": "blue",
+        "films": Array [
+          "http://swapi.dev/api/films/1/",
+          "http://swapi.dev/api/films/6/",
+        ],
+        "gender": "male",
+        "hair_color": "auburn, grey",
+        "height": "180",
+        "homeworld": "http://swapi.dev/api/planets/21/",
+        "mass": "unknown",
+        "name": "Wilhuff Tarkin",
+        "skin_color": "fair",
+        "species": Array [],
+        "starships": Array [],
+        "url": "http://swapi.dev/api/people/12/",
+        "vehicles": Array [],
+      },
+    ],
+  },
+  "type": "FILL_FILMS",
+}
+`;
+
+exports[`Films actions should set fetching error 1`] = `
+Object {
+  "error": true,
+  "payload": "We have an error !",
+  "type": "SET_FETCHING_FILMS_ERROR",
+}
+`;
+
+exports[`Films actions should start fetching 1`] = `
+Object {
+  "type": "START_FETCHING_FILMS",
+}
+`;
+
+exports[`Films actions should stop fetching 1`] = `
+Object {
+  "type": "STOP_FETCHING_FILMS",
+}
+`;
+
+exports[`People actions should fetch people 1`] = `[Function]`;
+
+exports[`People actions should fill people 1`] = `
+Object {
+  "payload": Object {
+    "count": 82,
+    "results": Array [
+      Object {
+        "birth_year": "64BBY",
+        "created": "2014-12-10T16:26:56.138000Z",
+        "edited": "2014-12-20T21:17:50.330000Z",
+        "eye_color": "blue",
+        "films": Array [
+          "http://swapi.dev/api/films/1/",
+          "http://swapi.dev/api/films/6/",
+        ],
+        "gender": "male",
+        "hair_color": "auburn, grey",
+        "height": "180",
+        "homeworld": "http://swapi.dev/api/planets/21/",
+        "mass": "unknown",
+        "name": "Wilhuff Tarkin",
+        "skin_color": "fair",
+        "species": Array [],
+        "starships": Array [],
+        "url": "http://swapi.dev/api/people/12/",
+        "vehicles": Array [],
+      },
+    ],
+  },
+  "type": "FILL_FILMS",
+}
+`;
+
+exports[`People actions should set fetching error 1`] = `
+Object {
+  "error": true,
+  "payload": "We have an error !",
+  "type": "SET_FETCHING_FILMS_ERROR",
+}
+`;
+
+exports[`People actions should start fetching 1`] = `
+Object {
+  "type": "START_FETCHING_FILMS",
+}
+`;
+
+exports[`People actions should stop fetching 1`] = `
+Object {
+  "type": "STOP_FETCHING_FILMS",
+}
+`;
+
+exports[`Person actions should fetch person 1`] = `[Function]`;
+
+exports[`Person actions should set fetching error 1`] = `
+Object {
+  "error": true,
+  "payload": "We have an error !",
+  "type": "SET_FETCHING_FILM_ERROR",
+}
+`;
+
+exports[`Person actions should start fetching 1`] = `
+Object {
+  "type": "START_FETCHING_FILM",
+}
+`;
+
+exports[`Person actions should stop fetching 1`] = `
+Object {
+  "type": "STOP_FETCHING_FILM",
+}
+`;

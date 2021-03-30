@@ -1,0 +1,76 @@
+.error {
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+}
+
+.formElement {
+  margin-bottom: 15px;
+  width: 400px;
+  font-size: 16px;
+
+  &.error {
+    color: red;
+  }
+
+  select,
+  label,
+  input {
+    display: block;
+  }
+
+  label {
+    margin-bottom: 5px;
+  }
+
+  select,
+  input {
+    padding: 5px 10px;
+    box-sizing: border-box;
+    width: 100%;
+
+    &.error {
+      border: 1px solid red;
+      border-radius: 2px;
+    }
+  }
+}
+
+.radioButtonsGroup {
+  margin-bottom: 15px;
+  width: 400px;
+  font-size: 16px;
+  &.error {
+    &.label {
+      color: red;
+    }
+  }
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .radioButtons {
+    display: flex;
+  }
+
+  .radioButton {
+    display: flex;
+    cursor: pointer;
+  }
+}
+
+input[type="radio"],
+select {
+  cursor: pointer;
+}
+
+select {
+  -webkit-appearance: none;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: auto;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 125.304 125.304"><path d="M62.652 103.895L0 21.41h125.304" fill="%23343334"/></svg>');
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center right 10px;
+}

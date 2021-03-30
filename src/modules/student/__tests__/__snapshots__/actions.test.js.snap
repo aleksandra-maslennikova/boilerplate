@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Student actions should fill student profile 1`] = `
+Object {
+  "payload": Object {
+    "firstName": "Sasha",
+  },
+  "type": "FILL_STUDENT_PROFILE",
+}
+`;
